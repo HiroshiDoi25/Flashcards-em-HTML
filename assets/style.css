@@ -65,3 +65,7 @@ footer p {
     color: var(--card-back-color);
     font-weight: 700;
 }
+
+.cartao.cartao:houver.cartao_conteudo {
+    transform: rotate(180deg);
+}

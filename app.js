@@ -5,10 +5,17 @@ function criaCartao(categoria, pergunta, resposta) {
     cartao.innerHTML = "
         < div class="cartao_conteudo" >
             <h3>${categoria}</h3>
-            <div class="cartao_conteudo_pergunta">
+            <div class=" cartao_conteudo_pergunta">
                 <P>${pergunta}</P>
     <div class cartao_conteudo_resposta">
     < p > ${ reposta }</p >
 </div>
 </div >
+        let respostaEstaVisivel = false
+    function viraCartao() {
+        respostaEstaVisivel = IrespostaEstaVisivel
+        cartao.classList.toggle('active', respostaEstaVisivel)
+    }
+    cartao.addEventListener('click', viraCartao)
+    container.appendChild(cartao)
 }

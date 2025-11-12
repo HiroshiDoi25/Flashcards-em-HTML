@@ -8,9 +8,9 @@ function criaCartao(categoria, pergunta, resposta) {
             <div class=" cartao_conteudo_pergunta">
                 <P>${pergunta}</P>
     <div class cartao_conteudo_resposta">
-    < p > ${ reposta }</p >
-</div>
-</div >
+         < p > ${ reposta }</p >
+    </div>
+    </div >
         let respostaEstaVisivel = false
     function viraCartao() {
         respostaEstaVisivel = IrespostaEstaVisivel
